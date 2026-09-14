@@ -16,19 +16,11 @@ Telegram-Proxy — это прокси-решение для Telegram, разр�
 
 | Этап | Что происходит |
 |:---:|---|
-|  **Telegram** | Клиент отправляет запрос |
-|  **Telegram-Proxy** | Прокси перехватывает пакеты |
-|  **Шифрование** | Трафик маскируется под обычный |
-|  **Сеть** | DPI-системы РКН не распознают трафик |
-|  **Серверы Telegram** | Пакеты доходят в неизменном виде |
-
-1. Клиент отправляет запрос.
-2. Прокси перехватывает пакеты и применяет шифрование.
-3. DPI-системы РКН не могут распознать трафик.
-4. Пакеты доходят до серверов Telegram в неизменном виде.
-5. Соединение устанавливается штатно.
-
-Никаких дополнительных настроек на стороне пользователя не требуется.
+| <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z" fill="#0088cc"/><path d="M12 6c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6zm0 10c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4z" fill="#0088cc"/></svg> **Telegram** | Клиент отправляет запрос |
+| <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="2" y="4" width="20" height="16" rx="2" stroke="#ff9800" stroke-width="2"/><path d="M7 9l5 4 5-4" stroke="#ff9800" stroke-width="2" stroke-linecap="round"/></svg> **Telegram-Proxy** | Прокси перехватывает пакеты |
+| <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="11" width="18" height="11" rx="2" stroke="#4caf50" stroke-width="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4" stroke="#4caf50" stroke-width="2"/></svg> **Шифрование** | Трафик маскируется под обычный |
+| <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" stroke="#2196f3" stroke-width="2"/><path d="M2 12h20M12 2c2.5 3 2.5 17 0 20M12 2c-2.5 3-2.5 17 0 20" stroke="#2196f3" stroke-width="1.5"/></svg> **Сеть** | DPI-системы РКН не распознают трафик |
+| <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z" stroke="#9c27b0" stroke-width="2"/><path d="M9 12l2 2 4-4" stroke="#9c27b0" stroke-width="2" stroke-linecap="round"/></svg> **Серверы Telegram** | Пакеты доходят в неизменном виде |
 
 > [!CAUTION]
 > **Реакция антивирусов**
